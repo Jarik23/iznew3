@@ -65,7 +65,6 @@ def draw(filename,cho):
  imag=imag.rotate(cho)
  output_filename = filename
  imag.save(output_filename)
- return output_filename,gr_path
  
 
 @app.route("/net",methods=['GET', 'POST'])
