@@ -62,9 +62,9 @@ def draw(filename,cho):
  plt.savefig(gr_path)
  plt.close()
  
- imag=imag.rotate(cho)
+ img=img.rotate(cho)
  output_filename = filename
- imag.save(output_filename)
+ img.save(output_filename)
  
 
 @app.route("/net",methods=['GET', 'POST'])
